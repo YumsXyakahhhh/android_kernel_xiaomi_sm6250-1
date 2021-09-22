@@ -3,7 +3,7 @@ jobs:
   Kernel_miatoll:
    docker:
       - image: ubuntu:18.04
-    steps:
+   steps:
       - run:
           name: Prepare Environment
           no_output_timeout: 20m
